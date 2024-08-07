@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nish_WebProj</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <!-- navbar -->
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#home1"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"  fill="currentColor" class="bi bi-pc-display-horizontal" viewBox="0 0 16 16">
+            <path d="M1.5 0A1.5 1.5 0 0 0 0 1.5v7A1.5 1.5 0 0 0 1.5 10H6v1H1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5v-1h4.5A1.5 1.5 0 0 0 16 8.5v-7A1.5 1.5 0 0 0 14.5 0zm0 1h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5M12 12.5a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0m2 0a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0M1.5 12h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1M1 14.25a.25.25 0 0 1 .25-.25h5.5a.25.25 0 1 1 0 .5h-5.5a.25.25 0 0 1-.25-.25"/>
+          </svg>Nish_WebProjs</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home1">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#proj1">Projects</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li> -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Links
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Portfolio</a></li>
+                  <li><a class="dropdown-item" href="https://www.linkedin.com/in/nishantacharekar/">Linked-In</a></li>
+                  <li><a class="dropdown-item" href="https://github.com/NishantA9">GitHub</a></li>
+                  <li><a class="dropdown-item" href="https://www.youtube.com/channel/UCut0FMt4ec_60Vzw149jdiQ">YouTube Channel</a></li>
+                  <!-- <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                </ul>
+              </li>
+            </ul>
+            <!-- <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit" id="search-button">Search</button>
+            </form> -->
+          </div>
+        </div>
+      </nav>
+
+        <!-- Hero section -->
+      <div class="container col-xxl-8 px-4 py-5" id="home1">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="2N.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="500" height="400" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-3 mb-5">Welcome to <span class="nishant">Nishant's</span> <br>
+            Web-Devlopment Projects
+            </h1>
+            <p class="lead">Explore a collection of my web-development projects, all crafted during my journey through a comprehensive web-developer course. Dive in to see the skills and creativity I've developed along the way. 
+            </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" onclick="location.href='#proj1'">Projects</button>
+              <button type="button" class="btn btn-outline-secondary btn-lg px-4" onclick="window.open('https://github.com/NishantA9', '_blank')">GitHub</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <hr>
+
+<!-- <hr> -->
+        <h1 class="proj1" id="proj1">My Live Websites</h1>
+
+
+        <div class="contaCard">
+          <!-- Add your card elements here -->
+          <div class="card">
+            <img src="dice.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Dice Game</h5>
+              <p class="card-text">A simple Dice Game to play, Built in HTML, CSS & JS.</p>
+              <a onclick="window.open('https://nishanta9.github.io/DiceGame/', '_blank')" class="btn btn-primary">Live</a>
+              <a onclick="window.open('https://github.com/NishantA9/DiceGame', '_blank')" class="btn btn-secondary">GitHub</a>
+
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="simon.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Simon Game</h5>
+              <p class="card-text">A simple simon game to play built in HTML, CSS & JS.</p>
+              <a onclick="window.open('https://nishanta9.github.io/SimonGame/', '_blank')" class="btn btn-primary">Live</a>
+              <a onclick="window.open('https://github.com/NishantA9/SimonGame', '_blank')" class="btn btn-secondary">GitHub</a>
+
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="drumkit.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Drum Kit</h5>
+              <p class="card-text">A Drum Kit Project made in HTML, CSS & JS. Go Jamm some Music.</p>
+              <a onclick="window.open('https://nishanta9.github.io/DrumKit/', '_blank')" class="btn btn-primary">Live</a>
+              <a onclick="window.open('https://github.com/NishantA9/DrumKit', '_blank')" class="btn btn-secondary">GitHub</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="qr.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">QR Generator</h5>
+              <p class="card-text">A QR Generator Project made in HTML, CSS & JS.</p>
+              <a onclick="window.open('https://nishanta9.github.io/QR-Proj/', '_blank')" class="btn btn-primary">Live</a>
+              <a onclick="window.open('https://github.com/NishantA9/QR-Proj', '_blank')" class="btn btn-secondary">GitHub</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="wildlife.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Save Animals</h5>
+              <p class="card-text">A Simple Donation Website created as an Internship project for Sparks Foundation. Made in HTML, CSS, JS & Razor Pay.</p>
+              <a onclick="window.open('https://nishanta9.github.io/NishantA9-Wildlife-donate-spark-task3/', '_blank')" class="btn btn-primary">Live</a>
+              <a onclick="window.open('https://github.com/NishantA9/NishantA9-Wildlife-donate-spark-task3', '_blank')" class="btn btn-secondary">GitHub</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="redstone.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">RedStone Shopping</h5>
+              <p class="card-text">A Shopping Website built during my Undergrad Semester 6. Made in HTML & CSS.</p>
+              <a onclick="window.open('https://nishanta9.github.io/redstone-Nishant/', '_blank')" class="btn btn-primary">Live</a>
+              <a onclick="window.open('https://github.com/NishantA9/redstone-Nishant', '_blank')" class="btn btn-secondary">GitHub</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="TinDog.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">TinDog Project</h5>
+              <p class="card-text">A Website where pet animals can have their own TikTok. Made in HTML, CSS & Bootstrap.</p>
+              <a onclick="window.open('https://nishanta9.github.io/TinDogProj/', '_blank')" class="btn btn-primary">Live</a>
+              <a onclick="window.open('https://github.com/NishantA9/TinDogProj', '_blank')" class="btn btn-secondary">GitHub</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="Mandorin.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Mondrian</h5>
+              <p class="card-text">A Mondrian Art which was a part of Web-Devlopment Course. Built with HTML & CSS.</p>
+              <a onclick="window.open('https://nishanta9.github.io/Mondrian/', '_blank')" class="btn btn-primary">Live</a>
+              <a onclick="window.open('https://github.com/NishantA9/Mondrian', '_blank')" class="btn btn-secondary">GitHub</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="agency.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">FE Agency</h5>
+              <p class="card-text">I have my own Construction Website now. Built in HTML & CSS.</p>
+              <a onclick="window.open('https://nishanta9.github.io/BuildAgency/', '_blank')" class="btn btn-primary">Live</a>
+              <a onclick="window.open('https://github.com/NishantA9/BuildAgency', '_blank')" class="btn btn-secondary">GitHub</a>            </div>
+          </div>
+
+          <div class="card">
+            <img src="danerys.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Motivation Meme</h5>
+              <p class="card-text">Here's a Monday (or any day) Motivation for you. Created in HTML and Inline CSS.  </p>
+              <a onclick="window.open('https://nishanta9.github.io/memeProj/', '_blank')" class="btn btn-primary">Live</a>
+              <a onclick="window.open('https://github.com/NishantA9/memeProj', '_blank')" class="btn btn-secondary">GitHub</a>
+          </div>
+          </div>
+
+          <div class="card">
+            <img src="fePersonal.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">FireEmperor Personal</h5>
+              <p class="card-text">A short Personal Introduction Page. Make sure to Subscribe the Channel (XD). Made in HTML & CSS.</p>
+              <a onclick="window.open('https://nishanta9.github.io/FEs-PersonalPage/', '_blank')" class="btn btn-primary">Live</a>
+              <a onclick="window.open('https://github.com/NishantA9/FEs-PersonalPage', '_blank')" class="btn btn-secondary">GitHub</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="cherry.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Cherry's Resume</h5>
+              <p class="card-text">A simple Resume built in HTML.</p>
+              <a onclick="window.open('https://nishanta9.github.io/SimpleResumeCherry/', '_blank')" class="btn btn-primary">Live</a>
+              <a onclick="window.open('https://github.com/NishantA9/SimpleResumeCherry', '_blank')" class="btn btn-secondary">GitHub</a>            </div>
+          </div>
+
+        </div>
+        <hr/>
+        <h1 class="proj1" id="proj1">My Other Websites</h1>
+
+        <div class="contaCard">
+          <div class="card">
+            <img src="feblog.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">My Blog</h5>
+              <p class="card-text">A Personal Blog Website made with JS, Express.js, NodeJs, HTML & CSS.</p>
+              <a onclick="window.open('https://github.com/NishantA9/FEs-BlogPosts', '_blank')" class="btn btn-secondary">GitHub</a>
+                        </div>
+          </div>
+
+          <div class="card">
+            <img src="secret.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Random Secret Generator</h5>
+              <p class="card-text">A Random Secret Generator Project made with ExpressJs, NodeJs, HTML, CSS & JS.</p>
+              <a onclick="window.open('https://github.com/NishantA9/RandomSecretGenerator', '_blank')" class="btn btn-secondary">GitHub</a>            </div>
+          </div>
+
+          <div class="card">
+            <img src="mySecret.png" style="height: 40%;" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">My Secrets</h5>
+              <p class="card-text">A Project Website where we can save our secrets. It has a Authentication, Login by Google, made in ExpressJs, Postgress SQL, HTML, CSS, NodeJs, JS.</p>
+              <a onclick="window.open('https://github.com/NishantA9/SecretsWebsite', '_blank')" class="btn btn-secondary">GitHub</a>            </div>
+          </div>
+
+          <div class="card">
+            <img src="bandGenerator.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Random Band Generator</h5>
+              <p class="card-text">Generates a Random Band Name which has Random Band API which generates the Band Name.</p>
+              <a onclick="window.open('https://github.com/NishantA9/Band-Name-Generator', '_blank')" class="btn btn-secondary">GitHub</a>            </div>
+          </div>
+
+          <div class="card">
+            <img src="Dbank.png" style="height: 40%;"  class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">D-Bank</h5>
+              <p class="card-text">A Replica of CryptoCoins where you withdraw or TopUp your CryptoCoins Built with Motoko & ReactJs </p>
+              <a onclick="window.open('https://github.com/NishantA9/D-Bank-Website', '_blank')" class="btn btn-secondary">GitHub</a>            </div>
+          </div>
+
+          <div class="card">
+            <img src="Dkeeper.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">D-Keeper</h5>
+              <p class="card-text">A Keeper Website similar to Google Keep Notes but built in ReactJS as FrontEnd and Motoko as Backend.</p>
+              <a onclick="window.open('https://github.com/NishantA9/D-Keeper-ReactMotoko', '_blank')" class="btn btn-secondary">GitHub</a>            </div>
+          </div>
+
+          <div class="card">
+            <img src="DToken.png" style="height: 40%;" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">D-Faucet</h5>
+              <p class="card-text">A Replica of CryptoTokens where you can check Balance, Claim Free Tokens, buy, sell & send the Tokens to others. Made in ReactJs & Motoko.</p>
+              <a onclick="window.open('https://github.com/NishantA9/Dfaucet', '_blank')" class="btn btn-secondary">GitHub</a>            </div>
+          </div>
+
+          <div class="card">
+            <img src="bank.jpg" style="height: 40%;" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Basic Banking System</h5>
+              <p class="card-text">
+                A Web Application used to transfer money between multiple users. Made in HTML, CSS, JS & PHP.              </p>
+              <a onclick="window.open('https://github.com/NishantA9/banking-system-spark-task1', '_blank')" class="btn btn-secondary">GitHub</a>            </div>
+          </div>
+
+        </div>
+      <!-- footer -->
+      <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <p class="col-md-4 mb-0 text-body-secondary">© Nishant Acharekar.</p>
+      
+          <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+      
+          <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="#home1" class="nav-link px-2 text-body-secondary">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Portfolio</a></li>
+            <li class="nav-item"><a href="https://www.linkedin.com/in/nishantacharekar/" class="nav-link px-2 text-body-secondary">Linked-In</a></li>
+            <li class="nav-item"><a href="https://github.com/NishantA9" class="nav-link px-2 text-body-secondary">GitHub</a></li>
+            <li class="nav-item"><a href="https://www.youtube.com/channel/UCut0FMt4ec_60Vzw149jdiQ" class="nav-link px-2 text-body-secondary">YouTube Channel</a></li>
+
+            <!-- <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li> -->
+          </ul>
+        </footer>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    <!-- <script>
+        document.getElementById('search-button').addEventListener('click', function() {
+          const query = document.getElementById('search-input').value.toLowerCase();
+          const cards = document.querySelectorAll('.card');
+          
+          cards.forEach(card => {
+            const searchableText = card.dataset.search.toLowerCase();
+            if (searchableText.includes(query)) {
+              card.style.display = 'block';
+            } else {
+              card.style.display = 'none';
+            }
+          });
+        });
+      </script> -->
+
+</body>
+</html>
